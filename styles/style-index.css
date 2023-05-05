@@ -19,11 +19,24 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(16.6666% - 15px)
     }
+    #culturas .large-card {
+        width: calc(33.3333% - 15px);
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:2099px) {
     #us_grid_1 .w-grid-item {
         width: calc(16.6666% - 15px)
+    }
+    #culturas .large-card {
+        width: calc(33.3333% - 15px);
+        display: flex;
+        flex-direction: column;
+    }
+    #us_grid_1 .recente-d, #us_grid_1 .recente-e{
+        display: unset;
     }
 }
 
@@ -31,11 +44,18 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(20% - 15px)
     }
+
+    #us_grid_1 .recente-f {
+        display: none;
+    }
 }
 
 @media (max-width:1499px) {
     #us_grid_1 .w-grid-item {
         width: calc(25% - 15px)
+    }
+    #us_grid_1 .cultura-a, #us_grid_1 .recente-e, #us_grid_1 .recente-f {
+        display: none;
     }
 }
 
@@ -43,17 +63,30 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(33.3333% - 15px)
     }
+    #us_grid_1 .recente-d{
+        display: none;
+    }
+    #culturas .large-card {
+        width: calc(50% - 15px);
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 899px) {
     #us_grid_1 .w-grid-item {
         width: calc(50% - 15px);
     }
-    #us_grid_1 .e{
+    #us_grid_1 .recente-d{
+        display: unset;
+    }
+    #us_grid_1 .recente-e, #us_grid_1 .recente-f{
         display: none;
     }
-    #us_grid_1 .f{
-        display: none;
+    #culturas .large-card {
+        width: calc(100% - 15px);
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -63,13 +96,7 @@ body {
         padding: 0;
         margin-bottom: 10px;
     }
-    #us_grid_1 .d{
-        display: none;
-    }
-    #us_grid_1 .e{
-        display: none;
-    }
-    #us_grid_1 .f{
+    #us_grid_1 .recente-d, #us_grid_1 .recente-e, #us_grid_1 .recente-f{
         display: none;
     }
 }
@@ -163,7 +190,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 194px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -321,7 +348,7 @@ body {
 
 .large-card {
     max-width: none;
-    margin: 8px;
+    margin: 4px;
     width: calc(100% - 18px);
 }
 
