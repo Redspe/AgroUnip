@@ -2,12 +2,12 @@
     --grad:  linear-gradient(rgba(255, 255, 255, 0.6) 20% ,rgb(0, 0, 0) 70%);
 }
 
-
 body {
     margin: auto;
     background-color: #f2f3f5;
     max-width: 2200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -270,6 +270,8 @@ a:hover ~ #ddContent{
 
 .welcome-content img{
     width: 100%;
+    max-height: 70dvh;
+    object-fit: cover;
 }
 
 .welcome-content {
@@ -396,7 +398,7 @@ a:hover ~ #ddContent{
 
 .content-over {
     padding: 1.1rem;
-    background-image:  linear-gradient(rgba(255, 255, 255, 0.3) 20% ,rgb(0, 0, 0) 70%), url('/media/calendario.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20% ,rgb(0, 0, 0) 70%), url('/media/calendario.jpg');
     text-align: center;
     border-radius: 0.5rem;
     height: 200px;
@@ -420,8 +422,24 @@ a:hover ~ #ddContent{
     background-image: var(--grad), url('/media/adubo.jpg');
 }
 
+.destaques .c {
+    background-image: var(--grad), url('/media/drone-agro.jpg');
+}
+
+.destaques .d {
+    background-image: var(--grad), url('/media/trigo.jpg');
+}
+
+.destaques .e {
+    background-image: var(--grad), url('/media/tecnologia-no-agro.jpeg');
+}
+
+.destaques .f {
+    background-image: var(--grad), url('/media/adubo.jpg');
+}
+
 footer {
     margin-top: 30px;
-    padding: 100px 8px;
+    padding: 8px 8px;
     background-color: #6B7280;
 }
