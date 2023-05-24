@@ -1,5 +1,5 @@
 :root {
-    --grad:  linear-gradient(rgba(255, 255, 255, 0.6) 20% ,rgb(0, 0, 0) 70%);
+    --grad: linear-gradient(rgba(255, 255, 255, 0.6) 20%, rgb(0, 0, 0) 70%);
 }
 
 body {
@@ -19,6 +19,7 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(16.6666% - 15px)
     }
+
     #culturas .large-card {
         width: calc(33.3333% - 15px);
         display: flex;
@@ -30,12 +31,15 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(16.6666% - 15px)
     }
+
     #culturas .large-card {
         width: calc(33.3333% - 15px);
         display: flex;
         flex-direction: column;
     }
-    #us_grid_1 .recente-d, #us_grid_1 .recente-e{
+
+    #us_grid_1 .recente-d,
+    #us_grid_1 .recente-e {
         display: unset;
     }
 }
@@ -45,11 +49,12 @@ body {
         width: calc(20% - 15px)
     }
 
-    #us_grid_1 .recente-f, #destaque-f{
+    #us_grid_1 .recente-f,
+    #destaque-f {
         display: none;
     }
 
-    #destaques .destaque-f{
+    #destaques .destaque-f {
         display: none;
     }
 }
@@ -58,7 +63,12 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(25% - 15px)
     }
-    #us_grid_1 .cultura-a, #us_grid_1 .recente-e, .recente-f, #destaque-e, #destaque-f {
+
+    #us_grid_1 .cultura-a,
+    #us_grid_1 .recente-e,
+    .recente-f,
+    #destaque-e,
+    #destaque-f {
         display: none;
     }
 }
@@ -67,9 +77,12 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(33.3333% - 15px)
     }
-    #us_grid_1 .recente-d, #destaque-d {
+
+    #us_grid_1 .recente-d,
+    #destaque-d {
         display: none;
     }
+
     #culturas .large-card {
         width: calc(50% - 15px);
         display: flex;
@@ -81,12 +94,17 @@ body {
     #us_grid_1 .w-grid-item {
         width: calc(50% - 15px);
     }
-    #us_grid_1 .recente-d, #destaque-d{
+
+    #us_grid_1 .recente-d,
+    #destaque-d {
         display: unset;
     }
-    #us_grid_1 .recente-e, #us_grid_1 .recente-f{
+
+    #us_grid_1 .recente-e,
+    #us_grid_1 .recente-f {
         display: none;
     }
+
     #culturas .large-card {
         width: calc(100% - 15px);
         display: flex;
@@ -100,15 +118,22 @@ body {
         padding: 0;
         margin-bottom: 10px;
     }
-    #us_grid_1 .recente-d, #us_grid_1 .recente-e, #us_grid_1 .recente-f, #us_grid_1 .destaque-e{
+
+    #us_grid_1 .recente-d,
+    #us_grid_1 .recente-e,
+    #us_grid_1 .recente-f,
+    #us_grid_1 .destaque-e {
         display: none;
     }
 }
 
-@media (max-width: 619px) { /* Modo celular */
+@media (max-width: 619px) {
+
+    /* Modo celular */
     #navbar .navbar-desktop {
         display: none;
-    } 
+    }
+
     #navbar .navbar-mobile {
         display: flex;
         flex-direction: column;
@@ -116,13 +141,16 @@ body {
         min-height: 52px;
 
     }
+
     body {
         overflow: auto;
     }
+
     body .navbar {
         position: fixed;
         z-index: 2;
     }
+
     body .main {
         padding-top: 52px;
     }
@@ -144,13 +172,13 @@ body {
     color: #FFF;
 }
 
-#ddContent a{
+#ddContent a {
     color: #FFF;
     font-size: 30px;
     min-width: 275px;
 }
 
-#ddContent a:hover{
+#ddContent a:hover {
     background-color: #30b243;
 }
 
@@ -159,11 +187,11 @@ body {
     position: relative;
     background-color: #0000;
     box-shadow: none;
-    padding: 15px 0 25px 0 ;
+    padding: 15px 0 25px 0;
     width: 100%;
 }
 
-a:hover ~ #ddContent{
+a:hover~#ddContent {
     display: none !important;
 }
 
@@ -214,7 +242,8 @@ a:hover ~ #ddContent{
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
     background-color: #30b243;
 }
 
@@ -262,20 +291,20 @@ a:hover ~ #ddContent{
     float: left;
 }
 
-.welcome{
+.welcome {
     background-color: #30b243;
 
     margin-bottom: 15px;
 }
 
-.welcome-content img{
+.welcome-content img {
     width: 100%;
     max-height: 70dvh;
     object-fit: cover;
 }
 
 .welcome-content {
-    display: inline;    
+    display: inline;
 }
 
 .welcome-text {
@@ -375,7 +404,7 @@ a:hover ~ #ddContent{
     transition: .3s;
 }
 
-.action:hover{
+.action:hover {
     scale: 1.025;
     transition: .3s;
 }
@@ -398,15 +427,15 @@ a:hover ~ #ddContent{
 
 .content-over {
     padding: 1.1rem;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20% ,rgb(0, 0, 0) 70%), url('/media/calendario.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3) 20%, rgb(0, 0, 0) 70%), url('/media/calendario.jpg');
     text-align: center;
     border-radius: 0.5rem;
     height: 200px;
     padding: 0px;
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: 0px 40%;
-    background-blend-mode:lighten;
+    background-blend-mode: lighten;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -436,6 +465,41 @@ a:hover ~ #ddContent{
 
 .destaques .f {
     background-image: var(--grad), url('/media/adubo.jpg');
+}
+
+#calendario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#tabelas h2 {
+    padding-top: 25px;
+}
+
+#tabelas table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+tr, td, th {
+    text-align: left;
+    padding: 10px;
+    
+}
+
+#tabelas td:nth-child(1), td:nth-child(2) {
+    width: 150px;
+}
+
+#tabelas td:nth-child(3) {
+    width: 250px;
+}
+
+#tabelas tr:nth-child(odd) {
+    background-color: #b4eba9;
+    width: 300px;
 }
 
 footer {
