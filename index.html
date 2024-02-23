@@ -2,341 +2,344 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-  <link href="./styles/style-index.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="./js/script.js" type="module"></script>
-  <title>Início - AgroUnip</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link href="./styles/style-index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/script.js" type="module"></script>
+    <title>Início - AgroUnip</title>
 </head>
 
 <body>
-  <!-- Navbar do Desktop -->
-  <div class="navbar" id="navbar">
-    <a href="./index.html#" style="all: unset;">
-      <div class="divLogo" id="logoo">
-        AGRO <div class="logoUnip">UNIP</div>
-      </div>
-    </a>
-    <div class="navbar-desktop">
-      <a href="./index.html#" id="inicio">Início</a>
-      <a href="./index.html#destaques">Notícias</a>
-      <div class="dropdown">
-        <button class="dropbtn">Para o agricultor
-          <i class="fa fa-caret-down"></i>
-          <i class="fa fa-caret-up"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="./html/calendarios.html">Calendários</a>
-          <a href="./index.html#culturas">Culturas</a>
-          <a href="./html/tecnicas.html">Técnicas</a>
+    <!-- Navbar do Desktop -->
+    <div class="navbar" id="navbar">
+        <a href="./index.html#" style="all: unset;">
+            <div class="divLogo" id="logoo">
+                AGRO <div class="logoUnip">UNIP</div>
+            </div>
+        </a>
+        <div class="navbar-desktop">
+            <a href="./index.html#" id="inicio">Início</a>
+            <a href="./index.html#destaques">Notícias</a>
+            <div class="dropdown">
+                <button class="dropbtn">Para o agricultor
+                    <i class="fa fa-caret-down"></i>
+                    <i class="fa fa-caret-up"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="./html/calendarios.html">Calendários</a>
+                    <a href="./index.html#culturas">Culturas</a>
+                    <a href="./html/tecnicas.html">Técnicas</a>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- Navbar do Celular -->
+        <div class="navbar-mobile">
+            <button class="w-nav-control fa fa-navicon" id="btnMenu"></button>
+            <div class="dropdown-content" id="ddContent" style="display: none;">
+                <a href="./index.html#destaques">Notícias</a>
+                <a href="./html/calendarios.html">Calendários</a>
+                <a href="./index.html#culturas">Culturas</a>
+                <a href="./html/tecnicas.html">Técnicas</a>
+            </div>
+        </div>
     </div>
+    <main class="main">
 
-    <!-- Navbar do Celular -->
-    <div class="navbar-mobile">
-      <button class="w-nav-control fa fa-navicon" id="btnMenu"></button>
-      <div class="dropdown-content" id="ddContent" style="display: none;">
-        <a href="./index.html#destaques">Notícias</a>
-        <a href="./html/calendarios.html">Calendários</a>
-        <a href="./index.html#culturas">Culturas</a>
-        <a href="./html/tecnicas.html">Técnicas</a>
-      </div>
-    </div>
-  </div>
-  <main class="main">
-
-    <div class="welcome">
-      <div class="welcome-content">
-        <div class="welcome-text">
-          <h1>O lugar para todas as suas nescessidades agrícolas</h1>
-          <p>Aqui você encontra informação de qualidade sobre o Agro em um só lugar.</p>
-        </div>
-        <img src="./media/inicio.webp">
-      </div>
-    </div>
-
-    <div class="page-content destaques" id="destaques">
-      <h2>Destaques da Semana</h2>
-
-      <div class="w-grid-list" id="us_grid_1">
-
-        <div class="card w-grid-item size_1x1" id="destaque-a">
-          <div class="content-over a">
-            <span class="large-card-title">
-              Mês de plantio?
-            </span>
-            <br>
-            <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
-              Acesse nosso Calendário
-            </a>
-          </div>
+        <div class="welcome">
+            <div class="welcome-content">
+                <div class="welcome-text">
+                    <h1>O lugar para todas as suas nescessidades agrícolas</h1>
+                    <p>Aqui você encontra informação de qualidade sobre o Agro em um só lugar.</p>
+                </div>
+                <img src="./media/inicio.webp">
+            </div>
         </div>
 
-        <div class="card w-grid-item size_1x1" id="destaque-b">
-          <div class="content-over b">
-            <span class="large-card-title">
-              Qual adubo devo usar?
-            </span>
-            <br>
-            <a href="./html/noticias/1.html" class="action" style="text-decoration: none;">
-              Descubra aqui
-            </a>
-          </div>
+        <div class="page-content destaques" id="destaques">
+            <h2>Destaques da Semana</h2>
+
+            <div class="w-grid-list" id="us_grid_1">
+
+                <div class="card w-grid-item size_1x1" id="destaque-a">
+                    <div class="content-over a">
+                        <span class="large-card-title">
+                            Mês de plantio?
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
+                            Acesse nosso Calendário
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card w-grid-item size_1x1" id="destaque-b">
+                    <div class="content-over b">
+                        <span class="large-card-title">
+                            Qual adubo devo usar?
+                        </span>
+                        <br>
+                        <a href="./html/noticias/1.html" class="action" style="text-decoration: none;">
+                            Descubra aqui
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card w-grid-item size_1x1" id="destaque-c">
+                    <div class="content-over c">
+                        <span class="large-card-title">
+                            Melhores drones agrícolas
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
+                            Descubra aqui
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card w-grid-item size_1x1" id="destaque-d">
+                    <div class="content-over d">
+                        <span class="large-card-title">
+                            Preço dos Grãos
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
+                            Descubra aqui
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card w-grid-item size_1x1" id="destaque-e">
+                    <div class="content-over e">
+                        <span class="large-card-title">
+                            Agro 4.0
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card w-grid-item size_1x1" id="destaque-f">
+                    <div class="content-over f">
+                        <span class="large-card-title">
+                            Chuva, Geada e Baixas Temperaturas
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
+                            Prepare-se
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="card w-grid-item size_1x1" id="destaque-c">
-          <div class="content-over c">
-            <span class="large-card-title">
-              Melhores drones agrícolas
-            </span>
-            <br>
-            <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
-              Descubra aqui
-            </a>
-          </div>
+        <div class="page-content recentes" id="recentes">
+            <h2>Postagens Recentes</h2>
+            <div class="w-grid-list" id="us_grid_1">
+
+                <article class="card w-grid-item recente-a">
+                    <div class="image"><a href="./html/noticias/1.html"><img src="./media/noticia1.jpg"
+                                alt="foto de soja" class="image"></a></div>
+                    <div class="content">
+                        <a href="./html/noticias/1.html" style="text-decoration: none;">
+                            <span class="card-title">
+                                Medidas para a cultura da soja em 2023
+                            </span>
+                        </a>
+
+                        <p class="card-description">
+                            Vazio sanitário para o controle do fungo causador
+                            da ferrugem-asiática da soja e quando plantar novamente
+                        </p>
+
+                        <p class="card-date">
+                            Postado 2 horas atrás
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card w-grid-item recente-b">
+                    <div class="image"><a href="./html/noticias/1.html"><img src="./media/noticia2.jpg"
+                                alt="nutrientes do solo" class="image"></a></div>
+                    <div class="content">
+                        <a href="./html/noticias/2.html" style="text-decoration: none;">
+                            <span class="card-title">
+                                Desafios causados pela dependência dos fertilizantes importados
+                            </span>
+                        </a>
+
+                        <p class="card-description">
+                            Dificuldades na cadeia de suprimentos por falta de produto, a alta
+                            no preço do gás natural e embargos econômicos
+                        </p>
+
+                        <p class="card-date">
+                            Postado 3 horas atrás
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card w-grid-item recente-c">
+                    <div class="image"><a href="./html/noticias/1.html"><img src="./media/agro-drone.webp"
+                                class="image"></a>
+                    </div>
+                    <div class="content">
+                        <a href="./html/noticias/1.html" style="text-decoration: none;">
+                            <span class="card-title">
+                                Tecnologias que auxiliam no monitoramento de pastagens em propriedades
+                            </span>
+                        </a>
+
+                        <p class="card-description">
+                            Embrapa aponta que o uso de drones para o monitoramento da
+                            cobertura e altura de pastagens alcançou 70% de precisão no Cerrado baiano.
+                        </p>
+
+                        <p class="card-date">
+                            Postado ontem às 08:13
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card w-grid-item recente-d">
+                    <div class="image"><a href="./html/noticias/1.html"><img src="./media/brasiL_agro.jpg"
+                                class="image"></a>
+                    </div>
+                    <div class="content">
+                        <a href="./html/noticias/1.html" style="text-decoration: none;">
+                            <span class="card-title">
+                                Brasil está entre países que mais reduzem impacto ambiental no agro, diz Ipea
+                            </span>
+                        </a>
+
+                        <p class="card-description">
+                            O Brasil é um dos países que mais reduzem a emissão de gases de efeito estufa
+                            nos processos agropecuários, desde o plantio até a colheita.
+                        </p>
+
+                        <p class="card-date">
+                            Postado ontem às 07:01
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card w-grid-item recente-e">
+                    <div class="image"><a href="./html/noticias/1.html"><img src="./media/agro-campanha.jpg"
+                                class="image"></a>
+                    </div>
+                    <div class="content">
+                        <a href="./html/noticias/1.html" style="text-decoration: none;">
+                            <span class="card-title">
+                                Técnicas recentes para otimizar o uso de água no campo
+                            </span>
+                        </a>
+
+                        <p class="card-description">
+                            A utilização excessiva dos recursos hídricos pode esgotar o acesso, causando
+                            danos ao meio ambiente e também na sua cultura. Saiba como evitar.
+                        </p>
+
+                        <p class="card-date">
+                            Postado 2 dias atrás
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card w-grid-item recente-f">
+                    <div class="image"><a href="./html/noticias/1.html"><img src="./media/trator.jpg" class="image"></a>
+                    </div>
+                    <div class="content">
+                        <a href="./html/noticias/1.html" style="text-decoration: none;">
+                            <span class="card-title">
+                                Novos defensivos agrícolas chegam ao Brasil
+                            </span>
+                        </a>
+
+                        <p class="card-description">
+                            Com a crescente demanda pelos produtos fitossanitários importados, várias marcas
+                            lançam suas novas formulações no mercado nacional.
+                        </p>
+
+                        <p class="card-date">
+                            Postado 2 dias atrás
+                        </p>
+                    </div>
+                </article>
+
+            </div>
         </div>
 
-        <div class="card w-grid-item size_1x1" id="destaque-d">
-          <div class="content-over d">
-            <span class="large-card-title">
-              Preço dos Grãos
-            </span>
-            <br>
-            <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
-              Descubra aqui
-            </a>
-          </div>
+        <div class="page-content culturas" id="culturas">
+            <h2>Culturas</h2>
+            <div class="w-grid-list" id="us_grid_1">
+
+                <div class="large-card">
+                    <div class="content-over">
+                        <span class="large-card-title">
+                            Não lembra a época do plantio?
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
+                            Acesse nosso calendário
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="large-card">
+                    <div class="content-over">
+                        <span class="large-card-title">
+                            Tipos de cultivos, adubo e irrigação
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html#culturas" class="action" style="text-decoration: none;">
+                            Entenda tudo sobre
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="large-card">
+                    <div class="content-over">
+                        <span class="large-card-title">
+                            Não lembra a época do plantio?
+                        </span>
+                        <br>
+                        <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
+                            Acesse nosso calendário
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        <div class="card w-grid-item size_1x1" id="destaque-e">
-          <div class="content-over e">
-            <span class="large-card-title">
-              Agro 4.0
-            </span>
-            <br>
-            <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
-              Saiba Mais
-            </a>
-          </div>
-        </div>
+    </main>
 
-        <div class="card w-grid-item size_1x1" id="destaque-f">
-          <div class="content-over f">
-            <span class="large-card-title">
-              Chuva, Geada e Baixas Temperaturas
-            </span>
-            <br>
-            <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
-              Prepare-se
-            </a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="page-content recentes" id="recentes">
-      <h2>Postagens Recentes</h2>
-      <div class="w-grid-list" id="us_grid_1">
-
-        <article class="card w-grid-item recente-a">
-          <div class="image"><a href="./html/noticias/1.html"><img src="./media/noticia1.jpg" alt="foto de soja"
-                class="image"></a></div>
-          <div class="content">
-            <a href="./html/noticias/1.html" style="text-decoration: none;">
-              <span class="card-title">
-                Medidas para a cultura da soja em 2023
-              </span>
-            </a>
-
-            <p class="card-description">
-              Vazio sanitário para o controle do fungo causador
-              da ferrugem-asiática da soja e quando plantar novamente
-            </p>
-
-            <p class="card-date">
-              Postado 2 horas atrás
-            </p>
-          </div>
-        </article>
-
-        <article class="card w-grid-item recente-b">
-          <div class="image"><a href="./html/noticias/1.html"><img src="./media/noticia2.jpg" alt="nutrientes do solo"
-                class="image"></a></div>
-          <div class="content">
-            <a href="./html/noticias/2.html" style="text-decoration: none;">
-              <span class="card-title">
-                Desafios causados pela dependência dos fertilizantes importados
-              </span>
-            </a>
-
-            <p class="card-description">
-              Dificuldades na cadeia de suprimentos por falta de produto, a alta
-              no preço do gás natural e embargos econômicos
-            </p>
-
-            <p class="card-date">
-              Postado 3 horas atrás
-            </p>
-          </div>
-        </article>
-
-        <article class="card w-grid-item recente-c">
-          <div class="image"><a href="./html/noticias/1.html"><img src="./media/agro-drone.webp" class="image"></a>
-          </div>
-          <div class="content">
-            <a href="./html/noticias/1.html" style="text-decoration: none;">
-              <span class="card-title">
-                Tecnologias que auxiliam no monitoramento de pastagens em propriedades
-              </span>
-            </a>
-
-            <p class="card-description">
-              Embrapa aponta que o uso de drones para o monitoramento da
-              cobertura e altura de pastagens alcançou 70% de precisão no Cerrado baiano.
-            </p>
-
-            <p class="card-date">
-              Postado ontem às 08:13
-            </p>
-          </div>
-        </article>
-
-        <article class="card w-grid-item recente-d">
-          <div class="image"><a href="./html/noticias/1.html"><img src="./media/brasiL_agro.jpg" class="image"></a>
-          </div>
-          <div class="content">
-            <a href="./html/noticias/1.html" style="text-decoration: none;">
-              <span class="card-title">
-                Brasil está entre países que mais reduzem impacto ambiental no agro, diz Ipea
-              </span>
-            </a>
-
-            <p class="card-description">
-              O Brasil é um dos países que mais reduzem a emissão de gases de efeito estufa
-              nos processos agropecuários, desde o plantio até a colheita.
-            </p>
-
-            <p class="card-date">
-              Postado ontem às 07:01
-            </p>
-          </div>
-        </article>
-
-        <article class="card w-grid-item recente-e">
-          <div class="image"><a href="./html/noticias/1.html"><img src="./media/agro-campanha.jpg" class="image"></a>
-          </div>
-          <div class="content">
-            <a href="./html/noticias/1.html" style="text-decoration: none;">
-              <span class="card-title">
-                Técnicas recentes para otimizar o uso de água no campo
-              </span>
-            </a>
-
-            <p class="card-description">
-              A utilização excessiva dos recursos hídricos pode esgotar o acesso, causando
-              danos ao meio ambiente e também na sua cultura. Saiba como evitar.
-            </p>
-
-            <p class="card-date">
-              Postado 2 dias atrás
-            </p>
-          </div>
-        </article>
-
-        <article class="card w-grid-item recente-f">
-          <div class="image"><a href="./html/noticias/1.html"><img src="./media/trator.jpg" class="image"></a>
-          </div>
-          <div class="content">
-            <a href="./html/noticias/1.html" style="text-decoration: none;">
-              <span class="card-title">
-                Novos defensivos agrícolas chegam ao Brasil
-              </span>
-            </a>
-
-            <p class="card-description">
-              Com a crescente demanda pelos produtos fitossanitários importados, várias marcas
-              lançam suas novas formulações no mercado nacional.
-            </p>
-
-            <p class="card-date">
-              Postado 2 dias atrás
-            </p>
-          </div>
-        </article>
-
-      </div>
-    </div>
-
-    <div class="page-content culturas" id="culturas">
-      <h2>Culturas</h2>
-      <div class="w-grid-list" id="us_grid_1">
-
-        <div class="large-card">
-          <div class="content-over">
-            <span class="large-card-title">
-              Não lembra a época do plantio?
-            </span>
-            <br>
-            <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
-              Acesse nosso calendário
-              <span aria-hidden="true">
-                →
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div class="large-card">
-          <div class="content-over">
-            <span class="large-card-title">
-              Tipos de cultivos, adubo e irrigação
-            </span>
-            <br>
-            <a href="./html/calendarios.html#culturas" class="action" style="text-decoration: none;">
-              Entenda tudo sobre
-              <span aria-hidden="true">
-                →
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div class="large-card">
-          <div class="content-over">
-            <span class="large-card-title">
-              Não lembra a época do plantio?
-            </span>
-            <br>
-            <a href="./html/calendarios.html" class="action" style="text-decoration: none;">
-              Acesse nosso calendário
-              <span aria-hidden="true">
-                →
-              </span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </main>
-
-  <footer>
-    <h4>Trabalho de Conclusão de semestre de Ciências da Computação</h4>
-    <p>Participantes:</p>
-    <ul>
-      <li>Kauan</li>
-      <li>Rafael</li>
-      <li>Raphael</li>
-      <li>Saulo</li>
-      <li>Néfi</li>
-    </ul>
-  </footer>
+    <footer>
+        <h4>Trabalho de Conclusão de semestre de Ciências da Computação</h4>
+        <p>Participantes:</p>
+        <ul>
+            <li>Kauan</li>
+            <li>Rafael</li>
+            <li>Raphael</li>
+            <li>Saulo</li>
+            <li>Néfi</li>
+        </ul>
+    </footer>
 
 </body>
 
