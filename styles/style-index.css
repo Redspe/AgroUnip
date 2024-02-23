@@ -11,7 +11,7 @@ body {
 }
 
 @font-face {
-    font-family: RealityHyper;
+    font-family: RealityHyper, sans-serif;
     src: url(/fonts/RealityHyperRegular.ttf);
 }
 
